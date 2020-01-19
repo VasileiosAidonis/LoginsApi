@@ -82,7 +82,6 @@ class LoginController extends Controller
 
          $login = Login::create($request->all());
 
-
          return $this->successResponse($login, Response::HTTP_CREATED);
 
       } else {
