@@ -20,12 +20,12 @@ php:
   environment:
     APP_ENV: local
     APP_DEBUG: 'true'
-    APP_KEY: 1Bj7POHGkoKmxppwkyqSVTUYEzzTlDjT
+    APP_KEY: xmBmAD51ZOcHcmcUXidA1C1sD6pOw8Py
     APP_LOCALE: en
     APP_FALLBACK_LOCALE: en
     DB_CONNECTION: mysql
     DB_HOST: mysql
-    DB_DATABASE: billings
+    DB_DATABASE: logins
     DB_USERNAME: root
     DB_PASSWORD: pass
     MEMCACHED_HOST: cache
@@ -33,14 +33,14 @@ php:
 
 mysql:
   image: mysql:5.7
-  container_name: billings
+  container_name: logins
   volumes:
     - ./images/mysql/data/:/var/lib/mysql
   ports:
     - "3306:3306"
   environment:
     MYSQL_ROOT_PASSWORD: pass
-    MYSQL_DATABASE: billings
+    MYSQL_DATABASE: logins
     MYSQL_USER: root
     MYSQL_PASSWORD: pass
 

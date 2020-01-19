@@ -1,0 +1,14 @@
+[2020-01-09 14:31:56] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')', expecting ']' in C:\LoginsApi\routes\web.php:36
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Routing\Router))
+#1 C:\LoginsApi\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func(Object(Closure), Object(Laravel\Lumen\Routing\Router))
+#2 C:\LoginsApi\bootstrap\app.php(107): Laravel\Lumen\Routing\Router->group(Array, Object(Closure))
+#3 C:\LoginsApi\public\index.php(14): require('C:\\LoginsApi\\bo...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ')', expecting ']' at C:\\LoginsApi\outes\\web.php:36)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\LoginsApi\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\LoginsApi\\bootstrap\\app.php(107): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\LoginsApi\\public\\index.php(14): require('C:\\\\LoginsApi\\\\bo...')
+#4 {main}
+"} 

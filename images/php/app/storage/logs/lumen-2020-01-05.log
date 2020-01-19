@@ -1,0 +1,36 @@
+[2020-01-05 16:10:58] local.ERROR: ErrorException: scandir(C:\LoginsApi\bootstrap/../config,C:\LoginsApi\bootstrap/../config): The system cannot find the file specified. (code: 2) in C:\LoginsApi\bootstrap\app.php:33
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'scandir(C:\\Logi...', 'C:\\LoginsApi\\bo...', 33, Array)
+#1 C:\LoginsApi\bootstrap\app.php(33): scandir('C:\\LoginsApi\\bo...')
+#2 C:\LoginsApi\public\index.php(14): require('C:\\LoginsApi\\bo...')
+#3 {main} {"exception":"[object] (ErrorException(code: 0): scandir(C:\\LoginsApi\\bootstrap/../config,C:\\LoginsApi\\bootstrap/../config): The system cannot find the file specified. (code: 2) at C:\\LoginsApi\\bootstrap\\app.php:33)
+[stacktrace]
+#0 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'scandir(C:\\\\Logi...', 'C:\\\\LoginsApi\\\\bo...', 33, Array)
+#1 C:\\LoginsApi\\bootstrap\\app.php(33): scandir('C:\\\\LoginsApi\\\\bo...')
+#2 C:\\LoginsApi\\public\\index.php(14): require('C:\\\\LoginsApi\\\\bo...')
+#3 {main}
+"} 
+[2020-01-05 16:11:18] local.ERROR: ErrorException: scandir(C:\LoginsApi\bootstrap/../config,C:\LoginsApi\bootstrap/../config): The system cannot find the file specified. (code: 2) in C:\LoginsApi\bootstrap\app.php:33
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'scandir(C:\\Logi...', 'C:\\LoginsApi\\bo...', 33, Array)
+#1 C:\LoginsApi\bootstrap\app.php(33): scandir('C:\\LoginsApi\\bo...')
+#2 C:\LoginsApi\public\index.php(14): require('C:\\LoginsApi\\bo...')
+#3 {main} {"exception":"[object] (ErrorException(code: 0): scandir(C:\\LoginsApi\\bootstrap/../config,C:\\LoginsApi\\bootstrap/../config): The system cannot find the file specified. (code: 2) at C:\\LoginsApi\\bootstrap\\app.php:33)
+[stacktrace]
+#0 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'scandir(C:\\\\Logi...', 'C:\\\\LoginsApi\\\\bo...', 33, Array)
+#1 C:\\LoginsApi\\bootstrap\\app.php(33): scandir('C:\\\\LoginsApi\\\\bo...')
+#2 C:\\LoginsApi\\public\\index.php(14): require('C:\\\\LoginsApi\\\\bo...')
+#3 {main}
+"} 
+[2020-01-05 16:11:53] local.ERROR: ErrorException: scandir(C:\LoginsApi\bootstrap/../config,C:\LoginsApi\bootstrap/../config): The system cannot find the file specified. (code: 2) in C:\LoginsApi\bootstrap\app.php:33
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'scandir(C:\\Logi...', 'C:\\LoginsApi\\bo...', 33, Array)
+#1 C:\LoginsApi\bootstrap\app.php(33): scandir('C:\\LoginsApi\\bo...')
+#2 C:\LoginsApi\public\index.php(14): require('C:\\LoginsApi\\bo...')
+#3 {main} {"exception":"[object] (ErrorException(code: 0): scandir(C:\\LoginsApi\\bootstrap/../config,C:\\LoginsApi\\bootstrap/../config): The system cannot find the file specified. (code: 2) at C:\\LoginsApi\\bootstrap\\app.php:33)
+[stacktrace]
+#0 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'scandir(C:\\\\Logi...', 'C:\\\\LoginsApi\\\\bo...', 33, Array)
+#1 C:\\LoginsApi\\bootstrap\\app.php(33): scandir('C:\\\\LoginsApi\\\\bo...')
+#2 C:\\LoginsApi\\public\\index.php(14): require('C:\\\\LoginsApi\\\\bo...')
+#3 {main}
+"} 
