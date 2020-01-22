@@ -86,7 +86,7 @@ class LoginController extends Controller
         //$error = 'Invalid Username or Password';
 
         // TRying to return response with view to work on APIGATEWAY
-        return view('login', ['error' => $error]);      
+        return view('login', ['error' => $error]);
       }
     }
 
